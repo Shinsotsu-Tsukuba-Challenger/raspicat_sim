@@ -7,7 +7,7 @@ Panels:
         - /Global Options1
         - /Trainee1
       Splitter Ratio: 0.5833333134651184
-    Tree Height: 850
+    Tree Height: 443
   - Class: rviz_common/Selection
     Name: Selection
   - Class: rviz_common/Tool Properties
@@ -20,8 +20,6 @@ Panels:
       - /Current View1
     Name: Views
     Splitter Ratio: 0.5
-  - Class: nav2_rviz_plugins/Navigation 2
-    Name: Navigation 2
 Visualization Manager:
   Class: ""
   Displays:
@@ -272,8 +270,8 @@ Visualization Manager:
         - Alpha: 1
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 0.9934042692184448
-            Min Value: -0.05958372354507446
+            Max Value: 1.001964807510376
+            Min Value: -0.06727427244186401
             Value: true
           Axis: Z
           Channel Name: intensity
@@ -335,7 +333,6 @@ Visualization Manager:
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /clicked_point
-    - Class: nav2_rviz_plugins/GoalTool
   Transformation:
     Current:
       Class: rviz_default_plugins/TF
